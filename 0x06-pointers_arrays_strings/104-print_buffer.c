@@ -3,8 +3,8 @@
 
 /**
  * print_buffer - prints buffer
- * @b: the buffer
- * @size: the size bytes of the buffer pointed by char b
+ * @b: buffer
+ * @size: size
  * Return: void
  */
 
