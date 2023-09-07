@@ -5,7 +5,6 @@
   * _calloc - allocates memory for an array
   * @nmemb: number of element members in the array
   * @size: size of each element member
-  * @n: number of times to copy
   *
   * Return: pointer to allocated memory
   */
