@@ -56,7 +56,7 @@ char *create_xarray(int size)
 /**
   * iterate_zeroes - Iterates through a string of numbers containing
   * leading zeroes until it hits a non-zero number.
-  * @size: The size of numbers to be iterate through.
+  * @str: The string of numbers to be iterate through.
   *
   * Return: A pointer to the next non-zero element.
   */
