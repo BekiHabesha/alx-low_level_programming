@@ -14,7 +14,6 @@ void add_nums(char *final_prod, char *next_prod, int next_len);
   *
   * Return: The length of the string.
   */
-
 int find_len(char *str)
 {
 	int len = 0;
@@ -31,7 +30,7 @@ int find_len(char *str)
   * @size: The size of the array to be initialized.
   *
   * Description: If there is insufficient space,
-  * the function exits with a status of 98.
+  *              the function exits with a status of 98.
   * Return: A pointer to the array.
   */
 
@@ -55,12 +54,11 @@ char *create_xarray(int size)
 
 /**
   * iterate_zeroes - Iterates through a string of numbers containing
-  * leading zeroes until it hits a non-zero number.
+  *                  leading zeroes until it hits a non-zero number.
   * @str: The string of numbers to be iterate through.
   *
   * Return: A pointer to the next non-zero element.
   */
-
 char *iterate_zeroes(char *str)
 {
 	while (*str && *str == '0')
@@ -77,7 +75,6 @@ char *iterate_zeroes(char *str)
   * the function exits with a status of 98.
   * Return: A pointer to the next non-zero element.
   */
-
 int get_digit(char c)
 {
 	int digit = c - '0';
@@ -127,14 +124,16 @@ void get_prod(char *prod, char *mult, int digit, int zeroes)
 	for (; mult_len >= 0; mult_len--, mult--, prod--)
 	{
 		if (*mult < '0' || *mult > '9')
+		{
+			printf("Error\n");
 			exit(98);
+		}
+
+		num = (*mult - '0') * digit;
+		num += tens;
+		*prod = (num % 10) + '0';
+		tens = num / 10;
 	}
-
-	num = (*mult - '0') * digit;
-	num += tens;
-	*prod = (num % 10) + '0';
-	tens = num / 10;
-
 	if (tens)
 		*prod = (tens % 10) + '0';
 }
