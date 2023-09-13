@@ -2,7 +2,7 @@
 
 #GitHub_Repository: " alx-low_level_programming "
 
-#Directory: " 0x0E-structures_typedef "
+#Directory: " 0x0F-function_pointers "
 
 
 #Tasks
