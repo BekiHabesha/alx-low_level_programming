@@ -2,8 +2,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void free_listp(listp_t **head);
-
 /**
   * free_listp - frees a listp linked list.
   *
