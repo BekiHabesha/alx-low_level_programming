@@ -3,75 +3,65 @@
 #include <stdlib.h>
 
 /**
-* free_listp2 - frees a listp linked list.
+* _ra - reallocates memory for an array of pointers
+* to the nodes in a linked list
+* @list: the old list to append
+* @size: size of the new list
+* always one more than the old list
+* @new: new node to add to the list
 *
-* @head: the head of a listp list.
-*
-* Return: no return.
+* Return: pointer to the new list
 */
-void free_listp2(listp_t **head)
+listint_t **_ra(listint_t **list, size_t size, listint_t *new)
 {
-listp_t *temp;
-listp_t *curr;
+listint_t **newlist;
+size_t i;
 
-if (*head != NULL)
+newlist = malloc(size * sizeof(listint_t *));
+if (newlist == NULL)
 {
-curr = *head;
-while ((temp = curr) != NULL)
-{
-curr = curr->next;
-free(temp);
+free(list);
+exit(98);
 }
-
-*head = NULL;
-}
+for (i = 0; i < size - 1; i++)
+newlist[i] = list[i];
+newlist[i] = new;
+free(list);
+return (newlist);
 }
 
 /**
-* free_listint_safe - frees a linked list.
+* free_listint_safe - Frees a listint_t linked list.
+* @head: double pointer to the start of the list
 *
-* @head: head of a list.
-*
-* Return: size of the list that was freed.
+* Return: the number of nodes in the list
 */
-size_t free_listint_safe(listint_t **h)
+size_t free_listint_safe(listint_t **head)
 {
-size_t nnodes = 0;
-listp_t *hptr, *new, *add;
-listint_t *curr;
+size_t i, num = 0;
+listint_t **list = NULL;
+listint_t *next;
 
-hptr = NULL;
-while (*h != NULL)
+if (head == NULL || *head == NULL)
+return (num);
+while (*head != NULL)
 {
-new = malloc(sizeof(listp_t));
-
-if (new == NULL)
-exit(98);
-
-new->p = (void *)*h;
-new->next = hptr;
-hptr = new;
-
-add = hptr;
-
-while (add->next != NULL)
+for (i = 0; i < num; i++)
 {
-add = add->next;
-if (*h == add->p)
+if (*head == list[i])
 {
-*h = NULL;
-free_listp2(&hptr);
-return (nnodes);
+*head = NULL;
+free(list);
+return (num);
 }
 }
+num++;
+list = _ra(list, num, *head);
+next = (*head)->next;
+free(*head);
+*head = next;
 
-curr = *h;
-*h = (*h)->next;
-free(curr);
-nnodes++;
 }
-
-*h = NULL;
-free_listp2(&hptr);
-return (nnodes);
+free(list);
+return (num);
 }
