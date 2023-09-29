@@ -1,5 +1,5 @@
 /*
-* File_name: main.h file
+* File_name: _putchar.c file
 * Created: 29th of Septrmber, 2023
 * Auth: Bereket Dereje Mekonnen
 * GitHub repository: alx-low_level_programming
