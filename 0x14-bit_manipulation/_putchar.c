@@ -1,11 +1,3 @@
-/*
-* File_name: _putchar.c file
-* Created: 29th of Septrmber, 2023
-* Auth: Bereket Dereje Mekonnen
-* GitHub repository: alx-low_level_programming
-* Project: 0x14. C - Bit manipulation.
-*/
-
 #include "main.h"
 #include <unistd.h>
 
