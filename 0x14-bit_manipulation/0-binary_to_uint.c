@@ -1,25 +1,40 @@
+/*
+* File_name: 0-binary_to_uint.c file
+* Created: 29th of Septrmber, 2023
+* Auth: Bereket Dereje Mekonnen
+* GitHub repository: alx-low_level_programming
+* Project: 0x14. C - Bit manipulation.
+*/
+
+#include <stdlib.h>
+#include <stdio.h>
 #include "main.h"
 
 /**
-* binary_to_uint - converts a binary number to an unsigned int.
-* @b: string containing the binary number
+* binary_to_uint - The function converts a binary number to an unsigned int.
+* @b: The pointer to a string containing a binary number
 *
-* Return: the converted number
+* Return: unsigned int with decimal value of binary number, or 0 if error
 */
 unsigned int binary_to_uint(const char *b)
 {
-int i;
-unsigned int dec_val = 0;
+int d;
+unsigned int bek;
 
+bek = 0;
 if (!b)
 return (0);
-
-for (i = 0; b[i]; i++)
+for (d = 0; b[d] != '\0'; d++)
 {
-if (b[i] < '0' || b[i] > '1')
+if (b[d] != '0' && b[d] != '1')
 return (0);
-dec_val = 2 * dec_val + (b[i] - '0');
+}
+for (d = 0; b[d] != '\0'; d++)
+{
+bek <<= 1;
+if (b[d] == '1')
+bek += 1;
 }
 
-return (dec_val);
+return (bek);
 }
