@@ -37,7 +37,7 @@ int file_w;
 if (!filename)
 return (-1);
 
-file_o = open(filename, O_CREAT | O_RDWR | O_WRONLY | O_TRUNC, 0600);
+file_o = open(filename, O_CREAT | O_WRONLY | O_TRUNC, 0600);
 
 if (file_o == -1)
 return (-1);
