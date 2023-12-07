@@ -89,9 +89,8 @@
 ###
 
 <p align="center">
-  <img src="https://static.javatpoint.com/ds/images/doubly-linked-list2.png" />
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/Delete_first_node.png" />
 </p>
-
 <h1> <ins>Resources</ins> :floppy_disk:</H1>
 
 ### **Read or watch:** :heavy_check_mark:
@@ -123,10 +122,13 @@
 
 <p align="center">
   <img src="https://prepinsta.com/wp-content/uploads/2023/02/Insertion-in-Doubly-Linked-List-in-C-1.webp" />
-<img src="https://media.geeksforgeeks.org/wp-content/uploads/Delete_first_node.png" />
 </p>
 
 ###
+
+<p align="center">
+  <img src="https://i.ibb.co/Dr7zQyb/alx-do-hard-things.png" />
+</p>
 
 <H2> <ins>Copyright - Plagiarism</ins> :heavy_check_mark:</H2>
 
@@ -134,10 +136,6 @@
 * You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
 * You are not allowed to publish any content of this project.
 * Any form of plagiarism is strictly forbidden and will result in removal from the program.
-
-<p align="center">
-  <img src="https://i.ibb.co/Dr7zQyb/alx-do-hard-things.png" />
-</p>
 
 ##
 
@@ -172,7 +170,7 @@
 
 * **Please use this <ins>data structure for this project<ins>:**
 
-'''js
+```js
 /**
  * struct dlistint_s - doubly linked list
  * @n: integer
@@ -188,7 +186,7 @@ typedef struct dlistint_s
     struct dlistint_s *prev;
     struct dlistint_s *next;
 } dlistint_t;
-'''
+```
 
 <p align="center">
   <img src="https://www.algotree.org/images/Insert_Doubly_Linked_List.png" />
@@ -220,9 +218,7 @@ typedef struct dlistint_s
   * <ins>**Prototype</ins>:** [**size_t print_dlistint(const dlistint_t *h);**](./0-print_dlistint.c)
   * <ins>**Return</ins>:** **the number of nodes.**
 
-<p align="center">
-  <img src="https://i.ibb.co/s2BJCMF/0-output-0x17-C-Doubly-linked-lists.png" />
-</p>
+![BekiHabesha.]( https://i.ibb.co/s2BJCMF/0-output-0x17-C-Doubly-linked-lists.png)
 
 ##
 
@@ -233,9 +229,7 @@ typedef struct dlistint_s
 * Write a **function** that <ins>**returns the number of elements in a linked dlistint_t list</ins>.**
   * <ins>**Prototype</ins>:** [**size_t dlistint_len(const dlistint_t *h);**](./1-dlistint_len.c)
 
-<p align="center">
-  <img src="https://i.ibb.co/z5p9nkY/1-output-0x17-C-Doubly-linked-lists.png" />
-</p>
+![BekiHabesha.]( https://i.ibb.co/z5p9nkY/1-output-0x17-C-Doubly-linked-lists.png)
 
 ##
 
@@ -247,9 +241,7 @@ typedef struct dlistint_s
   * <ins>**Prototype</ins>:** [**dlistint_t** __*add_dnodeint(dlistint_t **head, const int n);__](./2-add_dnodeint.c)
   * <ins>**Return</ins>:** **the <ins>address of the new element</ins>,** or **<ins>NULL</ins> if it failed.**
 
-<p align="center">
-  <img src="https://i.ibb.co/MGBDv24/2-output-0x17-C-Doubly-linked-lists.png" />
-</p>
+![BekiHabesha.]( https://i.ibb.co/MGBDv24/2-output-0x17-C-Doubly-linked-lists.png)
 
 ##
 
@@ -261,9 +253,7 @@ typedef struct dlistint_s
   * <ins>**Prototype</ins>:** [**dlistint_t** __*add_dnodeint(dlistint_t **head, const int n);__](./3-add_dnodeint_end.c)
   * <ins>**Return</ins>:** **the <ins>address of the new element</ins>,** or **<ins>NULL</ins> if it failed.**
 
-<p align="center">
-  <img src="https://i.ibb.co/qCH1mm3/3-output-0x17-C-Doubly-linked-lists.png" />
-</p>
+![BekiHabesha.]( https://i.ibb.co/qCH1mm3/3-output-0x17-C-Doubly-linked-lists.png)
 
 ##
 
@@ -274,9 +264,7 @@ typedef struct dlistint_s
 * Write a **function** that <ins>**frees a dlistint_t list</ins>.**
   * <ins>**Prototype</ins>:** [**void free_dlistint(dlistint_t *head);**](./4-free_dlistint.c)
 
-<p align="center">
-  <img src="https://i.ibb.co/vzK8sJX/4-output-0x17-C-Doubly-linked-lists.png" />
-</p>
+![BekiHabesha.]( https://i.ibb.co/vzK8sJX/4-output-0x17-C-Doubly-linked-lists.png)
 
 ##
 
@@ -289,9 +277,7 @@ typedef struct dlistint_s
   * **where <ins>index</ins>** is the **<ins>index</ins> of the <ins>node</ins>, starting from <ins>0<ins>.** 
   * **If the <ins>node does not exist</ins>, return <ins>NULL</ins>.**
 
-<p align="center">
-  <img src="https://i.ibb.co/xJR4vcG/5-output-0x17-C-Doubly-linked-lists.png" />
-</p>
+![BekiHabesha.]( https://i.ibb.co/xJR4vcG/5-output-0x17-C-Doubly-linked-lists.png)
 
 ##
 
@@ -303,9 +289,7 @@ typedef struct dlistint_s
   * <ins>**Prototype</ins>:** [**int sum_dlistint(dlistint_t *head);**](./6-sum_dlistint.c)
   * **If the <ins>list is empty</ins>, return <ins>0</ins>.
 
-<p align="center">
-  <img src="https://i.ibb.co/rs97Zsb/6-output-0x17-C-Doubly-linked-lists.png" />
-</p>
+![BekiHabesha.]( https://i.ibb.co/rs97Zsb/6-output-0x17-C-Doubly-linked-lists.png)
 
 ##
 
@@ -318,13 +302,11 @@ typedef struct dlistint_s
 * Write a **function** that <ins>**inserts a new node at a given position</ins>.**
   * <ins>**Prototype</ins>:** [**dlistint_t** __*insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n);__](./7-insert_dnodeint.c)
   * **where <ins>idx</ins>** is the **<ins>index</ins> of the <ins> list where the new node should be added</ins>. <ins>index</ins>starts at <ins>0<ins>.** 
-  * **If it is not possible to add the <ins>new node at index *idx*</ins>, do not add the <ins>new node</ins> and return <ins>NULL</ins>.
+  * **If it is not possible to add the <ins>new node at index *idx*</ins>, do not add the <ins>new node</ins> and return <ins>NULL</ins>.**
 
 * **Your files [**2-add_dnodeint.c**](./2-add_dnodeint.c) and [**3-add_dnodeint_end.c**](./3-add_dnodeint_end.c) will be compiled during the correction.**
 
-<p align="center">
-  <img src="https://i.ibb.co/nnx5n81/7-output-0x17-C-Doubly-linked-lists.png" />
-</p>
+![BekiHabesha.]( https://i.ibb.co/nnx5n81/7-output-0x17-C-Doubly-linked-lists.png)
 
 ##
 
@@ -337,8 +319,8 @@ typedef struct dlistint_s
   * **where <ins>index</ins>** is the **<ins>index</ins> of the <ins>node</ins>, that should be <ins>deleted</ins>. <ins>Index</ins>starts at <ins>0<ins>.** 
   * <ins>**Returns</ins>:** **<ins>1</ins> if it succeeded, <ins>-1</ins> if it failed.** 
 
+![BekiHabesha.]( https://i.ibb.co/3rWQKyC/8-1-output-0x17-C-Doubly-linked-lists.png)<br>
 <p align="center">
-  <img src="https://i.ibb.co/3rWQKyC/8-1-output-0x17-C-Doubly-linked-lists.png" />
   <img src="https://i.ibb.co/Qrgvb7J/8-2-output-0x17-C-Doubly-linked-lists.png" />
   <img src="https://i.ibb.co/FVv2Gqf/8-3-output-0x17-C-Doubly-linked-lists.png" />
 </p>
@@ -383,8 +365,6 @@ typedef struct dlistint_s
   * <ins>**Usage of the crackme</ins>:** **./keygen5 username**
   * **Your <ins>keygen</ins> should <ins>print a valid key</ins> for the <ins>username</ins>.**
 
-<p align="center">
-  <img src="https://i.ibb.co/GpHqGf0/11-output-0x17-C-Doubly-linked-lists.png" />
-</p>
+![BekiHabesha.]( https://i.ibb.co/GpHqGf0/11-output-0x17-C-Doubly-linked-lists.png)
 
 ##
