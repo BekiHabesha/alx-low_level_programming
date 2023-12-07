@@ -2,7 +2,10 @@
 static int test_palindromic(unsigned int n);
 int main(void)
 {
+  char *filename = "102-result";
   unsigned int i, j, max = 0;
+  FILE *fp = fopen(filename, "w");
+
   for (i = 100; i <= 999; i++) {
     for (j = 100; j <= 999; j++) {
       unsigned int p = i*j;
