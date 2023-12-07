@@ -54,7 +54,7 @@
 | **4** | **Free list** | [**4-free_dlistint.c**](./4-free_dlistint.c) | [**void free_dlistint(dlistint_t *head);**](./4-free_dlistint.c) |
 | **5** | **Get node<br> at index** | [**5-get_dnodeint.c**](./5-get_dnodeint.c) | [**dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index);**](./5-get_dnodeint.c) |
 | **6** | **Sum list** | [**6-sum_dlistint.c**](./6-sum_dlistint.c) | [**int sum_dlistint(dlistint_t *head);**](./6-sum_dlistint.c) |
-| **7** | **Insert<br> at index** | [**7-insert_dnodeint.c**](./7-insert_dnodeint.c) | [**dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n);**](./7-insert_dnodeint.c) |
+| **7** | **Insert<br> at index** | [**7-insert_dnodeint.c**](./7-insert_dnodeint.c) | [**dlistint_t *insert_dnodeint_at_index(dlistint_t** __**h, unsigned int idx, int n);__](./7-insert_dnodeint.c) |
 | **8** | **Delete<br> at index** | [**8-delete_dnodeint.c**](./8-delete_dnodeint.c) | [**int delete_dnodeint_at_index(dlistint_t** __**head, unsigned int index);__](./8-delete_dnodeint.c) |
 |   |   |   |   |
 |  |   |   |  |
@@ -64,7 +64,7 @@
 | **9** | **Crackme4** | [**100-password**](./100-password) |  |
 | **10** | **Palindromes** | [**102-result**](./102-result) |  |
 | **11** | **Crackme5** | [**103-keygen.c**](./103-keygen.c) |  |
-|  |  | [**Usageof crackme: | [**./crackme5 username key**](https://github.com/alx-tools/0x17.c) |
+|  |  | [**Usageof crackme:**](https://github.com/alx-tools/0x17.c) | [**./crackme5 username key**](https://github.com/alx-tools/0x17.c) |
 |  |  | [**Usageof keygen:**](https://github.com/alx-tools/0x17.c) | [**./keygen5 username**](https://github.com/alx-tools/0x17.c) |
 
 ##
