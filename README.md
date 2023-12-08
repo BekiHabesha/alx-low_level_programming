@@ -27,7 +27,8 @@
 
 ###
 
-<H1 align="center", height="1500"> <ins> PROJECT DIRECTORIES</ins> 📂<br> Inside [**alx-low_level_programming**](https://github.com/BekiHabesha/alx-low_level_programming) **Repository** :floppy_disk: </H1>
+<H1 align="center", height="1500"> <ins> PROJECT DIRECTORIES</ins> 📂</H1> 
+## Inside [**alx-low_level_programming**](https://github.com/BekiHabesha/alx-low_level_programming) **Repository** :floppy_disk:
 
 | <H3 align="center">GitHub Repository :floppy_disk: </H3> | <H3 align="center">Directory 📂 </H3> | <H3 align="center">Project Title</H3> |
 | :----: | :----:| :---- |
