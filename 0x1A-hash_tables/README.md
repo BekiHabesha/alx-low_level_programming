@@ -1,16 +1,18 @@
 <H1 align="center", height="1500"> <ins> README.md File </ins> </H1>
 <H1 align="center", height="1500"> <ins>0x1A. C - Hash tables</ins> </H1>
 
-![BekaHabesha.]( https://i.ibb.co/wWRrMhz/0x1-A-C-Hash-tables-Alx-logo.png)
+<p align="center">
+  <img src="https://i.ibb.co/0GLL8gB/0x1-A-C-Hash-tables-ALX-Logo.png" />
+</p>
 
 ##
 
 * **File_name:** <ins>**README.md file**</ins>
 * **Created:** <ins>**On December 22, 2023**</ins>
-* **Author:** <ins>***Bereket Dereje Mekkonen***</ins>
-* **Project:** [**0x1A. C - Hash tables**](https://intranet.alxswe.com/projects/253#task-1253)
-* **GitHub repository:** 📂 [**alx-low_level_programming**](https://github.com/BekiHabesha/alx-low_level_programming/tree/master)
-* **Directory:** 📂 [**0x1A-hash_tables**](https://github.com/BekiHabesha/alx-low_level_programming/tree/master/0x1A-hash_tables)
+* **Author: 🖊** <ins>***Bereket Dereje Mekkonen***</ins>👨🏽‍💻
+* **Project Title:💻**  [**0x1A. C - Hash tables**](https://intranet.alxswe.com/projects/253#task-1253)
+* **GitHub Repository:** 📦 [**alx-low_level_programming**](https://github.com/BekiHabesha/alx-low_level_programming/tree/master)
+* **Directory:** 🗂 [**0x1A-hash_tables**](https://github.com/BekiHabesha/alx-low_level_programming/tree/master/0x1A-hash_tables)
 * **Project Tasks:** <ins>**Mandatory and Advanced**</ins>
 * **Tasks in number:** <ins>**8 Tasks (7-Mandatory & 1-Advanced)**</ins>
 * **Mandatory_Tasks:** <ins>**From Task 0 to 6**</ins>
@@ -18,7 +20,7 @@
 
 ##
 
-### **PROJECT_TITLE:** [**0x1A. C - Hash tables**](https://intranet.alxswe.com/projects/253#task-1253)
+### **PROJECT_TITLE: 💻** [**0x1A. C - Hash tables**](https://intranet.alxswe.com/projects/253#task-1253)
 
 ### **GITHUB_REPOSITORY:** 📂 [**alx-low_level_programming**](https://github.com/BekiHabesha/alx-low_level_programming/tree/master)
 
